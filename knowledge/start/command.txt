@@ -1,7 +1,24 @@
 
-Run the React Application
+Run the React Application:
 - cd my-react-app (file name you created)
 - npm start (run the React application)
 - localhost:3000 
 
-Modify the React Application
+Upgrade React:
+
+Step 1: Install React 18
+- cd /Users/Jessie/my-react-app (go to your project folder)
+- npm i react@latest react-dom@latest
+
+Step 2: Use the new root API
+-> index.js:
+// Before
+import ReactDOM from 'react-dom';
+ReactDOM.render(<App />, document.getElementById('root'));
+
+// After
+import ReactDOM from 'react-dom/client';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
+
