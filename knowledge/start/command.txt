@@ -1,10 +1,10 @@
 
-Run the React Application:
+1. Run the React Application:
 - cd my-react-app (file name you created)
 - npm start (run the React application)
 - localhost:3000 
 
-Upgrade React:
+2. Upgrade React:
 
 Step 1: Install React 18
 - cd /Users/Jessie/my-react-app (go to your project folder)
