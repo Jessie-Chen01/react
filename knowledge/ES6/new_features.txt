@@ -1,1 +1,12 @@
 
+1. Classes:
+We use the keyword class, instead of using the keyword function to initiate it. and the properties are assigned inside a constructor() method.
+
+class Car {
+  constructor(name) {
+    this.brand = name;
+  }
+}
+
+const mycar = new Car("Ford");
+
