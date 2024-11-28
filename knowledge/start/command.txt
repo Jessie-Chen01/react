@@ -1,1 +1,7 @@
 
+Run the React Application
+- cd my-react-app (file name you created)
+- npm start (run the React application)
+- localhost:3000 
+
+Modify the React Application
